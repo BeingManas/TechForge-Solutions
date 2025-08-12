@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVenture Solutions - Building Tomorrow's Tech Talent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h2>TechVenture Solutions</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                    <li><a href="#careers" class="nav-link">Careers</a></li>
+                    <li><a href="javascript:void(0)" onclick="showApplicationPage()" class="btn btn--primary btn--sm">Apply Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Homepage Content -->
+    <div id="homepage" class="page-content">
+        <!-- Hero Section with Video Background -->
+        <section id="home" class="hero">
+            <!-- Video Background -->
+            <div class="video-background">
+                <!-- Replace src with your own video file -->
+                <video autoplay muted loop playsinline>
+                    <source src="hero_bg.mp4" type="video/mp4">
+                    <source src="hero_bg.mp4" type="video/webm">
+                    <!-- Fallback for browsers that don't support video -->
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Building Tomorrow's Tech Talent. Powering Solutions for Industry.</h1>
+                    <p class="hero-subtitle">We are a leading technology company delivering innovative solutions while developing the next generation of tech professionals through comprehensive programs and industry partnerships.</p>
+                    <div class="hero-buttons">
+                        <a href="#solutions" class="btn btn--primary btn--lg">Our Solutions</a>
+                        <a href="javascript:void(0)" onclick="showApplicationPage()" class="btn btn--outline btn--lg">Join Our Programs</a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Enterprise Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100+</h3>
+                        <p>Tech Professionals Trained</p>
+                    </div>
+                    <div class="stat">
+                        <h3>95%</h3>
+                        <p>Success Rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About TechVenture Solutions</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Mission</h3>
+                        <p>We are a technology company committed to delivering impactful solutions while nurturing the next generation of tech professionals through comprehensive internship and training programs. Our dual focus on innovation and talent development sets us apart in the industry.</p>
+                        
+                        <h3>Our Story</h3>
+                        <p>Founded with a vision to bridge the gap between cutting-edge technology solutions and skilled talent development, TechVenture Solutions has emerged as a leading player in the tech industry. We combine enterprise-level project delivery with comprehensive talent development programs.</p>
+                        
+                        <h3>Why Partner With Us?</h3>
+                        <ul class="about-features">
+                            <li><strong>Industry Expertise:</strong> Proven track record in software development and tech consulting</li>
+                            <li><strong>Innovation Labs:</strong> Research and development in emerging technologies</li>
+                            <li><strong>Talent Pipeline:</strong> Continuous development of skilled tech professionals</li>
+                            <li><strong>End-to-End Solutions:</strong> From concept to deployment and beyond</li>
+                        </ul>
+                    </div>
+                    <div class="about-team">
+                        <h3>Leadership Team</h3>
+                        <div class="team-grid">
+                            <div class="team-member card">
+                                <div class="card__body">
+                                    <div class="member-avatar"></div>
+                                    <h4>Chief Technology Officer</h4>
+                                    <p>Engineering Leadership</p>
+                                    <p>15+ years in enterprise software development</p>
+                                </div>
+                            </div>
+                            <div class="team-member card">
+                                <div class="card__body">
+                                    <div class="member-avatar ceo"></div>
+                                    <h4>Head of Talent Development</h4>
+                                    <p>Program Director</p>
+                                    <p>Expert in professional development and training</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solutions Section -->
+        <section id="solutions" class="solutions">
+            <div class="container">
+                <h2 class="section-title">Our Solutions & Initiatives</h2>
+                <p class="section-subtitle">Comprehensive technology solutions and professional development programs</p>
+                
+                <div class="solutions-grid">
+                    
+                    <div class="solution-card card">
+                        <div class="card__body">
+                            <source src="soft_dev.jpg" type="video/mp4">
+                            <div class="solution-icon">💻</div>
+                            <h3>Software Development</h3>
+                            <p>Custom software solutions for enterprise clients, from web applications to complex system integrations.</p>
+                            <ul class="solution-features">
+                                <li>Full-stack development</li>
+                                <li>Cloud-native applications</li>
+                                <li>System architecture</li>
+                                <li>API development</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="solution-card card">
+                        <div class="card__body">
+                            <div class="solution-icon">🔧</div>
+                            <h3>Tech Consulting</h3>
+                            <p>Strategic technology consulting to help businesses optimize their digital transformation journey.</p>
+                            <ul class="solution-features">
+                                <li>Digital strategy</li>
+                                <li>Technology assessment</li>
+                                <li>Process optimization</li>
+                                <li>Implementation support</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="solution-card card">
+                        <div class="card__body">
+                            <div class="solution-icon">🚀</div>
+                            <h3>Innovation Labs</h3>
+                            <p>Research and development in emerging technologies including AI, blockchain, and IoT solutions.</p>
+                            <ul class="solution-features">
+                                <li>R&D projects</li>
+                                <li>Proof of concepts</li>
+                                <li>Technology prototyping</li>
+                                <li>Innovation workshops</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programs-preview">
+                    <h3>Professional Development Programs</h3>
+                    <p>We also offer comprehensive internship and training programs for aspiring tech professionals. Our programs combine hands-on experience with industry mentorship.</p>
+                    <a href="javascript:void(0)" onclick="showApplicationPage()" class="btn btn--primary">Learn More About Our Programs</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Careers Section -->
+        <section id="careers" class="careers">
+            <div class="container">
+                <h2 class="section-title">Join Our Team</h2>
+                <div class="careers-content">
+                    <div class="careers-text">
+                        <h3>Build Your Career with TechVenture Solutions</h3>
+                        <p>We're always looking for talented professionals to join our growing team. Whether you're an experienced developer, a strategic thinker, or a recent graduate, we have opportunities for you to grow and make an impact.</p>
+                        
+                        <div class="career-opportunities">
+                            <h4>Current Opportunities</h4>
+                            <ul>
+                                <li>Senior Software Engineers</li>
+                                <li>Data Scientists</li>
+                                <li>DevOps Engineers</li>
+                                <li>Technical Consultants</li>
+                                <li>Internship Programs</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="career-benefits">
+                            <h4>Why Work With Us?</h4>
+                            <ul>
+                                <li>Competitive compensation packages</li>
+                                <li>Professional development opportunities</li>
+                                <li>Flexible work arrangements</li>
+                                <li>Cutting-edge technology projects</li>
+                                <li>Collaborative team environment</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="careers-cta">
+                        <div class="card">
+                            <div class="card__body">
+                                <h4>Ready to Join Us?</h4>
+                                <p>Explore our internship and training programs designed to launch your tech career.</p>
+                                <a href="javascript:void(0)" onclick="showApplicationPage()" class="btn btn--primary btn--full-width">Apply to Our Programs</a>
+                                
+                                <div class="career-contact">
+                                    <p><strong>For experienced professionals:</strong></p>
+                                    <p>Email: careers@techventure.com</p>
+                                    <p>Phone: +91-9876543210</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact & Support</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:contact@techventure.com">contact@techventure.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <a href="tel:+917070399922">+91-7070399922</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Address:</strong>
+                            <span>Tech Hub, Hoskote Banglore</span>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="#" target="_blank" class="social-link">LinkedIn</a>
+                                <a href="#" target="_blank" class="social-link">Twitter</a>
+                                <a href="#" target="_blank" class="social-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <h3>Send us a Message</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contactName" class="form-label">Name *</label>
+                                    <input type="text" id="contactName" name="name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactEmail" class="form-label">Email *</label>
+                                    <input type="email" id="contactEmail" name="email" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <input type="text" id="subject" name="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Application Page Content (Hidden by default) -->
+    <div id="applicationPage" class="page-content hidden">
+        <!-- Programs & Application Section -->
+        <section class="programs-application">
+            <div class="container">
+                <div class="application-header">
+                    <button onclick="showHomepage()" class="btn btn--outline btn--sm back-button">← Back to Home</button>
+                    <h1 class="section-title">Professional Development Programs</h1>
+                    <p class="section-subtitle">Launch your tech career with our comprehensive internship and training programs</p>
+                </div>
+                
+                <div class="programs-grid">
+                    <div class="program-card card">
+                        <div class="card__body">
+                            <h3>Python Programming Fundamentals</h3>
+                            <p class="program-duration">Duration: 1-2 months</p>
+                            <p class="program-price">Fee: ₹1500</p>
+                            <p class="program-description">Master Python programming from basics to advanced concepts with hands-on projects and real-world applications.</p>
+                            
+                            <h4>Curriculum Highlights:</h4>
+                            <ul class="program-features">
+                                <li>Python Basics & Syntax</li>
+                                <li>Data Structures & Algorithms</li>
+                                <li>Object-Oriented Programming</li>
+                                <li>Web Development with Flask/Django</li>
+                                <li>API Development</li>
+                                <li>Database Integration</li>
+                                <li>Real-world Projects</li>
+                            </ul>
+                            
+                            <div class="program-footer">
+                                <span class="certification">Industry-recognized certificate</span>
+                                <a href="#registration" class="btn btn--primary btn--sm">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-card card">
+                        <div class="card__body">
+                            <h3>Data Science Bootcamp</h3>
+                            <p class="program-duration">Duration: 3-4 months</p>
+                            <p class="program-price">Fee: ₹2500</p>
+                            <p class="program-description">Comprehensive data science training covering analytics, machine learning, and visualization with industry tools.</p>
+                            
+                            <h4>Curriculum Highlights:</h4>
+                            <ul class="program-features">
+                                <li>Statistics & Mathematics</li>
+                                <li>Python for Data Science</li>
+                                <li>Pandas & NumPy</li>
+                                <li>Data Visualization</li>
+                                <li>Machine Learning Algorithms</li>
+                                <li>Deep Learning Basics</li>
+                                <li>Capstone Projects</li>
+                            </ul>
+                            
+                            <div class="program-footer">
+                                <span class="certification">Data Science Professional Certificate</span>
+                                <a href="#registration" class="btn btn--primary btn--sm">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-card card">
+                        <div class="card__body">
+                            <h3>Latest Technologies Track</h3>
+                            <p class="program-duration">Duration: 2 months</p>
+                            <p class="program-price">Fee: ₹3000</p>
+                            <p class="program-description">Stay ahead with cutting-edge technologies including AI, Cloud Computing, and DevOps practices.</p>
+                            
+                            <h4>Curriculum Highlights:</h4>
+                            <ul class="program-features">
+                                <li>Artificial Intelligence Fundamentals</li>
+                                <li>Cloud Computing (AWS/Azure)</li>
+                                <li>DevOps & CI/CD</li>
+                                <li>Blockchain Basics</li>
+                                <li>IoT Applications</li>
+                                <li>Industry Project</li>
+                            </ul>
+                            
+                            <div class="program-footer">
+                                <span class="certification">Advanced Technology Certificate</span>
+                                <a href="#registration" class="btn btn--primary btn--sm">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Registration Form -->
+                <section id="registration" class="registration">
+                    <h2 class="section-title">Apply for Our Programs</h2>
+                    <p class="section-subtitle">Take the first step towards your tech career with TechVenture Solutions</p>
+                    
+                    <div class="registration-form-container">
+                        <form id="registrationForm" class="registration-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="fullName" class="form-label">Full Name *</label>
+                                    <input type="text" id="fullName" name="fullName" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="education" class="form-label">Educational Background *</label>
+                                    <select id="education" name="education" class="form-control" required>
+                                        <option value="">Select your education level</option>
+                                        <option value="high-school">High School</option>
+                                        <option value="bachelor">Bachelor's Degree</option>
+                                        <option value="master">Master's Degree</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="program" class="form-label">Preferred Program *</label>
+                                <select id="program" name="program" class="form-control" required>
+                                    <option value="">Select a program</option>
+                                    <option value="python-fundamentals">Python Programming Fundamentals</option>
+                                    <option value="data-science">Data Science Bootcamp</option>
+                                    <option value="latest-tech">Latest Technologies Track</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="motivation" class="form-label">Why are you interested in this program? *</label>
+                                <textarea id="motivation" name="motivation" class="form-control" rows="4" required placeholder="Tell us about your goals and career aspirations..."></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="resume" class="form-label">Resume (Optional)</label>
+                                <input type="file" id="resume" name="resume" class="form-control" accept=".pdf,.doc,.docx">
+                                <small class="form-help">Upload your resume (PDF, DOC, or DOCX format, max 5MB)</small>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full-width btn--lg">Submit Application</button>
+                        </form>
+                    </div>
+                </section>
+
+                <!-- Success Stories Placeholder -->
+                <section class="success-stories">
+                    <h2 class="section-title">Success Stories</h2>
+                    <div class="success-content">
+                        <div class="success-placeholder">
+                            <h3>Join Our Growing Alumni Network</h3>
+                            <p>Our graduates are making their mark in leading tech companies. Be part of the next success story.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechVenture Solutions</h3>
+                    <p>Building tomorrow's tech talent while powering innovative solutions for industry leaders.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="#solutions">Software Development</a></li>
+                        <li><a href="#solutions">Tech Consulting</a></li>
+                        <li><a href="#solutions">Innovation Labs</a></li>
+                        <li><a href="javascript:void(0)" onclick="showApplicationPage()">Training Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0)" onclick="showApplicationPage()">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: contact@techventure.com</p>
+                    <p>Phone: +91-7070399922</p>
+                    <p>Address: Tech Hub,Hoskote Banglore </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechVenture Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Application Submitted Successfully!</h3>
+            <p>Thank you for your interest in TechVenture Solutions. We'll review your application and get back to you within 2-3 business days.</p>
+            <button id="closeModal" class="btn btn--primary">Close</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
